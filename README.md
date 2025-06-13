@@ -23,8 +23,8 @@ A smart API that automatically answers student questions based on course content
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/Pranov123/TDS_PROJECT.git
-cd TDS_PROJECT
+git clone https://github.com/Pranov123/tds_project.git
+cd tds_project
 ```
 
 ### 2. Install Dependencies
@@ -55,15 +55,16 @@ The API will be available at `http://localhost:5000`
 
 ### Build and Run
 ```bash
-# Build the image
-docker build -t virtual-ta-api .
+# Build the Docker image with your repo name
+docker build -t tds_project .
 
-# Run the container
+# Run the container with Gemini API key environment variable
 docker run -p 5000:5000 \
-  -e OPENAI_API_KEY="your-openai-api-key" \
+  -e GEMINI_API_KEY="AIzaSyDMyPi-LgeRip-TIrofvzSw0yowdK1oAFM" \
   -v $(pwd)/tds_corrected_data.json:/app/data/tds_corrected_data.json \
   -v $(pwd)/tds_discourse_data.json:/app/data/tds_discourse_data.json \
-  virtual-ta-api
+  tds_project
+
 ```
 
 ## ☁️ Deploy to Cloud
