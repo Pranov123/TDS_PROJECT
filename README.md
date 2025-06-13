@@ -172,8 +172,8 @@ tds_project/
 ├── .env.example                            # Environment variables template
 ├── .gitignore                              # Git ignore rules
 ├── data/                                   # Data directory
-│   ├── tds_corrected_data.json            # Course content (you provide)
-│   └── tds_discourse_data.json            # Discourse posts (you provide)
+│   ├── tds_corrected_data.json            # Course content 
+│   └── tds_discourse_data.json            # Discourse posts 
 ├── evaluation/
 │   ├── project-tds-virtual-ta-promptfoo.yaml  # Evaluation config
 │   ├── run_evaluation.sh                      # Evaluation runner
