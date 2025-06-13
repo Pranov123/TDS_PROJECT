@@ -189,7 +189,7 @@ virtual-ta-api/
 ### Environment Variables
 | Variable | Description | Required |
 |----------|-------------|----------|
-| `OPENAI_API_KEY` | Your OpenAI API key | Yes |
+| `GEMINI_API_KEY` | Your GEMINI API key | Yes |
 | `COURSE_CONTENT_PATH` | Path to course content JSON | No (default: `tds_corrected_data.json`) |
 | `DISCOURSE_POSTS_PATH` | Path to discourse posts JSON | No (default: `tds_discourse_data.json`) |
 
