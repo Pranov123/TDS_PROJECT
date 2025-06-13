@@ -23,8 +23,8 @@ A smart API that automatically answers student questions based on course content
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/virtual-ta-api.git
-cd virtual-ta-api
+git clone https://github.com/Pranov123/TDS_PROJECT.git
+cd TDS_PROJECT
 ```
 
 ### 2. Install Dependencies
