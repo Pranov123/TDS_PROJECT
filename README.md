@@ -34,7 +34,7 @@ pip install -r requirements.txt
 
 ### 3. Set Environment Variables
 ```bash
-export GEMINI_API_KEY="AIzaSyDMyPi-LgeRip-TIrofvzSw0yowdK1oAFM"
+export GEMINI_API_KEY="enter your API key here"
 export COURSE_CONTENT_PATH="tds_corrected_data.json"
 export DISCOURSE_POSTS_PATH="tds_discourse_data.json"
 ```
