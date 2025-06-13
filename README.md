@@ -49,8 +49,6 @@ Place your scraped JSON files in the project root:
 python app.py
 ```
 
-The API will be available at `http://localhost:5000`
-
 ## 🐳 Docker Deployment
 
 ### Build and Run
