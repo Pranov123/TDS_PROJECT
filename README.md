@@ -58,7 +58,7 @@ docker build -t tds_project .
 
 # Run the container with Gemini API key environment variable
 docker run -p 5000:5000 \
-  -e GEMINI_API_KEY="AIzaSyDMyPi-LgeRip-TIrofvzSw0yowdK1oAFM" \
+  -e GEMINI_API_KEY="API key here" \
   -v $(pwd)/tds_corrected_data.json:/app/data/tds_corrected_data.json \
   -v $(pwd)/tds_discourse_data.json:/app/data/tds_discourse_data.json \
   tds_project
