@@ -164,7 +164,7 @@ curl "https://your-api-url.com/api/" \
 
 ## 📁 Project Structure
 ```
-virtual-ta-api/
+tds_project/
 ├── app.py                                    # Main API server
 ├── requirements.txt                          # Python dependencies
 ├── Dockerfile                               # Docker configuration
