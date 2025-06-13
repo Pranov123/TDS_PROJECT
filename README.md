@@ -34,7 +34,7 @@ pip install -r requirements.txt
 
 ### 3. Set Environment Variables
 ```bash
-export OPENAI_API_KEY="your-openai-api-key-here"
+export GEMINI_API_KEY="AIzaSyDMyPi-LgeRip-TIrofvzSw0yowdK1oAFM"
 export COURSE_CONTENT_PATH="tds_corrected_data.json"
 export DISCOURSE_POSTS_PATH="tds_discourse_data.json"
 ```
