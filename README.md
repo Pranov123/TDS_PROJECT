@@ -73,7 +73,7 @@ docker run -p 5000:5000 \
 1. Fork this repository
 2. Connect to [Railway](https://railway.app)
 3. Add environment variables:
-   - `OPENAI_API_KEY`
+   - `GEMINI_API_KEY`
 4. Upload your JSON files to the deployment
 5. Your API will be available at: `https://your-app.railway.app`
 
