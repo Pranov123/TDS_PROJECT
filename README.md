@@ -1,6 +1,6 @@
 # Virtual Teaching Assistant API
 
-A smart API that automatically answers student questions based on course content and Discourse forum posts for the Technical Data Science (TDS) course.
+A smart API that automatically answers student questions based on course content and Discourse forum posts for the Tools in Data Science (TDS) course.
 
 ## 🚀 Features
 
